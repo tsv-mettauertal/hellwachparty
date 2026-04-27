@@ -1,0 +1,38 @@
+# based on: https://swharden.com/blog/2022-03-20-github-actions-hugo/
+
+name: hugo-deploy-dev
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - dev
+  schedule:
+    # Run every day at 1:50 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
+    - cron: "50 1 * * *"
+
+jobs:
+  deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 'dev'
+          submodules: true
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3.0.0
+        with:
+          hugo-version: "0.148.2"
+
+      - name: Build
+        run: hugo --minify --baseURL "https://dev.tsvmettauertal.ch/"
+
+      - name: Create empty key file
+        run: install -m 600 -D /dev/null ~/.ssh/id_rsa
+      - name: Populate key
+        run: echo "${{ secrets.PRIVATE_SSH_KEY }}" > ~/.ssh/id_rsa
+
+#      - name: Upload
+#        run: rsync --archive --delete --stats -e 'ssh -o StrictHostKeyChecking=no' public/ tsvmetta@tsvmettauertal.ch:/home/tsvmetta/www/dev.tsvmettauertal.ch/

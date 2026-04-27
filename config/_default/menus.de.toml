@@ -1,0 +1,169 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "News"
+  pageRef = "/news"
+  weight = 10
+
+[[main]]
+  name = "Anlässe"
+  identifier = "events"
+  pageRef = "/events"
+  weight = 20
+
+[[main]]
+  name = "Über uns"
+  identifier = "about"
+  pageRef = "/about"
+  weight = 30
+[[main]]
+  name = "Organisation"
+  parent = "about"
+  pageRef = "/about/organisation"
+  weight = 1
+[[main]]
+  name = "Vorstand"
+  parent = "about"
+  pageRef = "/about/vorstand"
+  weight = 2
+[[main]]
+  name = "Leitbild und Geschichte"
+  parent = "about"
+  pageRef = "/about/leitbild"
+  weight = 3
+[[main]]
+  name = "Downloads"
+  parent = "about"
+  pageRef = "/about/downloads"
+  weight = 4
+[[main]]
+  name = "Spenden"
+  parent = "about"
+  pageRef = "/about/spenden"
+  weight = 5
+
+[[main]]
+  identifier = "riegen"
+  name = "Riegen"
+  pageRef = "/riegen"
+  weight = 40
+[[main]]
+  name = "Übersicht & Trainingsplan"
+  parent = "riegen"
+  pageRef = "/riegen/ubersicht"
+  weight = 1
+[[main]]
+  name = "Übersicht Wettkämpfe"
+  parent = "riegen"
+  pageRef = "/riegen/wettkampf"
+  weight = 2
+[[main]]
+  name = "Leiterteam Jugend"
+  parent = "riegen"
+  pageRef = "/riegen/leiterteam_jugend"
+  weight = 3
+[[main]]
+  name = "Fragen und Antworten Jugend"
+  parent = "riegen"
+  pageRef = "/riegen/fragen_antworten_jugend"
+  weight = 4
+[[main]]
+  name = "Jugi & Märi"
+  parent = "riegen"
+  pageRef = "/riegen/jugi"
+  weight = 11
+[[main]]
+  name = "Kids"
+  parent = "riegen"
+  pageRef = "/riegen/kids"
+  weight = 12
+[[main]]
+  name = "Kinder-Turnen"
+  parent = "riegen"
+  pageRef = "/riegen/kitu"
+  weight = 13
+[[main]]
+  name = "Eltern-Kind-Turnen"
+  parent = "riegen"
+  pageRef = "/riegen/elki"
+  weight = 14
+[[main]]
+  name = "Unihockey"
+  parent = "riegen"
+  pageRef = "/riegen/unihockey"
+  weight = 21
+[[main]]
+  name = "Aktive"
+  parent = "riegen"
+  pageRef = "/riegen/aktive"
+  weight = 31
+[[main]]
+  name = "Volleyball"
+  parent = "riegen"
+  pageRef = "/riegen/volleyball"
+  weight = 32
+
+[[main]]
+  name = "Kontakt"
+  pageRef = "/contact"
+  weight = 50
+
+[[main]]
+  name = "Galerie"
+  url = "https://gallery.tsvmettauertal.ch/"
+  weight = 60
+
+[[main]]
+  identifier = "instagram"
+  pre = "instagram"
+  url = "https://instagram.com/tsvmettauertal"
+  weight = 100
+
+[[main]]
+  identifier = "facebook"
+  pre = "facebook"
+  url = "https://facebook.com/tsvmettauertal"
+  weight = 101
+
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+[[footer]]
+  name = "Kontakt"
+  pageRef = "/contact"
+  weight = 90
+
+ [[footer]]
+   name = "Datenschutz"
+   pageRef = "/about/datenschutz"
+   weight = 100
+
+ [[footer]]
+   name = "Impressum"
+   pageRef = "/about/impressum"
+   weight = 110
+
+[[footer]]
+  identifier = "rss"
+  pre = "rss"
+  url = "/news/rss_feed"
+  weight = 115
+
+[[footer]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/tsv-mettauertal/tsv-web"
+  weight = 120

@@ -1,0 +1,14 @@
+languageCode = "de"
+languageName = "Deutsch"
+weight = 1
+title = "TSV Mettauertal"
+
+[params]
+  displayName = "Deutsch"
+  isoCode = "de"
+  rtl = false
+  dateFormat = "02.01.2006"
+  logo = "img/tsv_logo_weiss_breit.png"
+  secondaryLogo = "img/tsv_logo_weiss_breit_invertiert.png"
+  description = "TSV Mettauertal"
+  copyright = '© TSV Mettauertal'
