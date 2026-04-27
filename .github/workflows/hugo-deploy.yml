@@ -34,4 +34,4 @@ jobs:
         run: echo "${{ secrets.PRIVATE_SSH_KEY }}" > ~/.ssh/id_rsa
 
       - name: Upload
-        run: rsync --archive --delete --stats -e 'ssh -o StrictHostKeyChecking=no' public/ tsvmetta@tsvmettauertal.ch:/home/tsvmetta/www/hellwachparty.tsvmettauertal.ch/
+        run: rsync --archive --delete --stats -e 'ssh -o StrictHostKeyChecking=no' public/ tsvmetta@tsvmettauertal.ch:/home/tsvmetta/www/hellwachparty.ch/

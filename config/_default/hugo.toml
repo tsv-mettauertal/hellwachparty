@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://tsvmettauertal.ch/"
+baseURL = "https://hellwachparty.tsvmettauertal.ch/"
 defaultContentLanguage = "de"
 disableLanguages = [] #to allow translation work requiring shipping to production
 

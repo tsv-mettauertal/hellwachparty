@@ -1,13 +1,14 @@
-colorScheme = "ocean"
-defaultAppearance = "light"
-autoSwitchAppearance = true
-enableSearch = true
+colorScheme = "congo"
+defaultAppearance = "dark" # valid options: light or dark
+autoSwitchAppearance = false
+
+enableSearch = false
 enableCodeCopy = true
 mainSections = [ "news" ]
 disableImageOptimization = true
 disableTextInHeader = true
-defaultBackgroundImage = "img/2018-06-23-10-55-13.jpg"
-defaultFeaturedImage = "img/2018-06-23-10-55-13.jpg"
+defaultBackgroundImage = "img/background.png"
+defaultFeaturedImage = "img/background.png"
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
@@ -21,7 +22,7 @@ layout = "fixed"
 showMenu = true
 showCopyright = true
 showThemeAttribution = true
-showAppearanceSwitcher = true
+showAppearanceSwitcher = false
 showScrollToTop = true
 
 [homepage]
@@ -33,7 +34,7 @@ showMoreLinkDest = "news"
 cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
-homepageImage = "img/2018-06-23-10-55-13.jpg"
+homepageImage = "img/background.png"
 
 [article]
 showDate = true
@@ -46,7 +47,7 @@ layoutBackgroundBlur = true
 showBreadcrumbs = false
 showDraftLabel = true
 showEdit = false
-editURL = "https://github.com/tsv-mettauertal/tsv-web"
+editURL = "https://github.com/tsv-mettauertal/hellwachparty"
 editAppendPath = true
 seriesOpened = false
 showHeadingAnchors = true

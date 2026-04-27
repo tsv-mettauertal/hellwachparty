@@ -1,25 +1,54 @@
+### vom [TSV Mettauertal](https://tsvmettauertal.ch/)
+
 ---
-title: 'TSV Mettauertal'
+
+## Wann & Wo
+
+**Datum:** Samstag, 28. März 2026  
+**Türöffnung:** 19:00 Uhr  
+**Ort:** [Turnhalle Wil](https://maps.app.goo.gl/vQHJVJxNbhxNHLHx5)
+
 ---
 
-Herzlich willkommen
--------------------
+## Bereiche
 
-Willkommen auf der Homepage des Turn- und Sportverein (TSV) Mettauertal.
-Hier findest du Informationen zu unserer [Vereinsstruktur](/about/organisation),
-den einzelnen [Riegen](/riegen/), der [Trainingsorganisation](/riegen/ubersicht) und der [Agenda](/events/agenda).
-Zudem werden hier regelmässig [News](/news) von Anlässen und Wettkämpfen
-und die dazugehörigen [Bildgalerien](https://gallery.tsvmettauertal.ch/) publiziert.
-Hier ein paar zufällige Impressionen:
+### Bar & Propi Bar
+...in der Turnhalle  
+...mit DJ Rizzi
 
-{{< gallery >}}
-{{< /gallery >}}
-<div id="random_image" class="gallery" style="position: relative">
-  <script type="text/javascript"
-	  src="//gallery.tsvmettauertal.ch/piwigo-random/piwigo-random-backend.php"
-	  async>
-  </script>
-</div>
+### TechnoBunker
+...im Keller
 
-Die Suchfunktion {{< icon "search" >}} (oben rechts) hilft dir schnell und einfach alle gewünschten Infos zu finden.
-Bei weiteren Fragen erreichst du uns jederzeit über das [Kontaktformular](/contact).
+### Oldies Bar
+...auf der Bühne
+
+### Foodcorner
+...gegen den Hunger
+
+---
+
+## Eintritt
+
+**18+:** CHF 10   
+**40+:** Eintritt frei
+
+---
+
+## An- und Heimreise
+
+**🚌 mit dem ÖV**  
+...direkt bei der Bushaltestelle [Wil AG, Mitteldorfstrasse](https://maps.app.goo.gl/k8qeAwJvFZf43GZ37)
+
+**🚗 mit dem Auto**  
+...begrenzte Parkplätze bei der Schule vorhanden
+
+**🚕 Heigo Taxi**  
+...ab 01:00 Uhr · CHF 5
+
+---
+
+## Hinweise
+
+Alterskontrolle am Eingang  
+
+---
