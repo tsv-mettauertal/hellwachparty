@@ -3,7 +3,7 @@ hellwachparty
 
 [![hugo-deploy](https://github.com/tsv-mettauertal/hellwachparty/actions/workflows/hugo-deploy.yml/badge.svg)](https://github.com/tsv-mettauertal/hellwachparty/actions/workflows/hugo-deploy.yml)
 
-Das ist das [Hugo](https://gohugo.io)-Projekt für den Webauftritt des TSV Mettauertal.
+Das ist das [Hugo](https://gohugo.io)-Projekt für den Webauftritt der Hellwach-Party des TSV Mettauertal.
 
 Der Webauftritt ist erreichbar unter: [hellwachparty.ch](https://hellwachparty.ch).
 
