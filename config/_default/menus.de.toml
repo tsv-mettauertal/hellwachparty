@@ -35,12 +35,12 @@
 
  [[footer]]
    name = "Datenschutz"
-   pageRef = "/about/datenschutz"
+   url = "https://tsvmettauertal.ch/about/datenschutz/"
    weight = 100
 
  [[footer]]
    name = "Impressum"
-   pageRef = "/about/impressum"
+   url = "https://tsvmettauertal.ch/about/impressum/"
    weight = 110
 
 [[footer]]
