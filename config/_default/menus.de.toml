@@ -11,6 +11,11 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
+  name = "News"
+  pageRef = "/news"
+  weight = 10
+
+[[main]]
   name = "Galerie"
   url = "https://gallery.tsvmettauertal.ch/"
   weight = 60
