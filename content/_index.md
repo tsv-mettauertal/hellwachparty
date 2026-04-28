@@ -4,7 +4,7 @@
 
 ## Wann & Wo
 
-**Datum:** Samstag, 28. März 2026  
+**Datum:** Samstag, 3. April 2027
 **Türöffnung:** 19:00 Uhr  
 **Ort:** [Turnhalle Wil](https://maps.app.goo.gl/vQHJVJxNbhxNHLHx5)
 
