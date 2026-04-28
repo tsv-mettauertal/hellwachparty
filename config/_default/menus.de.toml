@@ -27,6 +27,12 @@
   url = "https://facebook.com/tsvmettauertal"
   weight = 101
 
+[[main]]
+  identifier = "tsv"
+  pre = "tsv"
+  url = "https://www.tsvmettauertal.ch"
+  weight = 102
+
 
 
 # -- Footer Menu --
